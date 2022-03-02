@@ -7,9 +7,7 @@ import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 public class CianTest extends WebSetting {
-public void text() {
 
-}
     @Test
     public void test1() {
         driver.get("https://www.cian.ru/");
