@@ -13,9 +13,9 @@ public class WebSetting {
         System.out.println("Start");
     }
 
-//    @After
-//    public void exit() {
-//        driver.quit();
-//        System.out.println("Exit");
-//    }
+    @After
+    public void exit() {
+        driver.quit();
+        System.out.println("Exit");
+    }
 }
